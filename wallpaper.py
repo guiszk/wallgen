@@ -19,7 +19,7 @@ def getcol():
     return "#" + "".join(random.sample("ABCDEF123456", 6))
 
 w, h = args.w, args.e
-img = Image.new("RGBA", (w, h))
+img = Image.new("RGB", (w, h))
 shape = [(0, 0), (w, h)]
 ImageDraw.Draw(img).rectangle(shape, fill="#FFFFFF")
 sperc = 0.2
@@ -60,4 +60,5 @@ if(args.sequence):
     sequence(args.sequence)
 elif(args.square):
     cont(args.square)
-img.show()
+img.save("wallpapers/pattern.jpg")
+print("Image saved to wallpapers/pattern.jpg")
