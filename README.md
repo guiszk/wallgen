@@ -19,6 +19,6 @@ Create wallpapers with patterns.
 ### Usage
 `python wallpaper.py [-h] [-q [SEQUENCE]] [-s [SQUARE]] [-g [GRADIENT]] width height`
 
-![example image](./wallpapers/your_ignorance_cramps_my_moon2.0-bold.jpg)
+![example image](./wallpapers/pattern.jpg)
 
 The resulting wallpaper is saved at `wallpapers/pattern.jpg`.
