@@ -27,3 +27,15 @@ Create wallpapers with patterns.
 ![example image](./wallpapers/pattern.jpg)
 
 The resulting wallpaper is saved at `wallpapers/pattern.jpg`.
+
+## joydivision
+Create wallpapers with lines, somewhat inspired by Joy Division's "Unknown Pleasures"
+
+### Usage
+`python joydivision.py <width> <height>`
+
+Additional settings can be tweaked inside the script.
+
+![example image](./wallpapers/unknownpleasures.jpg)
+
+The resulting wallpaper is saved at `wallpapers/unknownpleasures.jpg`.
