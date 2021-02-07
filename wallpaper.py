@@ -30,7 +30,7 @@ def sequence(x):
         msquare = [sstart, send]
         if(args.color):
             fill = Color(args.color)
-            fill.luminance = random.randint(1, 9)/10
+            fill.luminance = random.randint(10, 90)/100
         else:
             fill = Color(pick_for=random.randrange(256))
         ImageDraw.Draw(img).rectangle(msquare, fill=fill.hex)
@@ -44,7 +44,7 @@ def cont(x):
             send = (square[0][0]+squarel*(j+1), square[0][1]+squarel*(i+1))
             msquare = [sstart, send]
             if(args.color):
-                fill.luminance = random.randint(1, 9)/10
+                fill.luminance = random.randint(10, 70)/100
             else:
                 fill = Color(pick_for=random.randrange(256))
             ImageDraw.Draw(img).rectangle(msquare, fill=fill.hex)

@@ -22,9 +22,15 @@ The resulting wallpapers go in the `wallpapers` folder.
 Create wallpapers with patterns.
 
 ### Usage
-`python wallpaper.py [-h] [-q [SEQUENCE]] [-s [SQUARE]] [-g [GRADIENT]] width height`
+`python wallpaper.py [-h] [-q [SEQUENCE]] [-s [SQUARE]] [-c [COLOR]] width height`
 
-![example image](./wallpapers/pattern.jpg)
+Example with random colors
+
+![example image](./wallpapers/pattern_colored.jpg)
+
+Example with `--color` option
+
+![example image](./wallpapers/pattern_black.jpg)
 
 The resulting wallpaper is saved at `wallpapers/pattern.jpg`.
 
