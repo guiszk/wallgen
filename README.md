@@ -17,6 +17,8 @@ The resulting wallpapers go in the `wallpapers` folder.
 Create wallpapers with patterns.
 
 ### Usage
+First, install requirements with `pip install -r requirements.txt`
+
 `python wallpaper.py [-h] [-q [SEQUENCE]] [-s [SQUARE]] [-g [GRADIENT]] width height`
 
 ![example image](./wallpapers/pattern.jpg)
