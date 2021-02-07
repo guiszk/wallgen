@@ -4,6 +4,8 @@ Tools to generate wallpapers.
 ## requirements
 First, install requirements with `pip install -r requirements.txt`
 
+`fortune` should also be installed to work with `inspiropaper.py`.
+
 ## inspiropaper
 Create inspiring wallpapers with `fortune`.
 
