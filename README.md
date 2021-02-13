@@ -56,5 +56,4 @@ Additional settings can also be tweaked inside the script.
 
 ![example image](./wallpapers/mountains_black.jpg)
 
-The wallpaper is saved at `wallpapers/mountains_black.jpg`.
-
+The wallpaper is saved at `wallpapers/mountains.jpg`.
