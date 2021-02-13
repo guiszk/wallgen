@@ -14,10 +14,10 @@ full = [(0, 0), (w, h)]
 draw.rectangle(full, fill='#ffffff') #change backgroud color
 
 #set these to constant numbers if desired
-numlines = random.randint(1, 50)
-numiter = random.randint(1, 50)
-maxdiv = random.randint(1, 300)
-width = random.randint(5, 20)
+numlines = random.randint(5, 50)
+numiter = random.randint(5, 50)
+maxdiv = random.randint(100, 700)
+width = random.randint(5, 10)
 
 for i in range(1, numlines):
     nh = h/numlines*(i)

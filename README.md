@@ -45,3 +45,16 @@ Additional settings can be tweaked inside the script.
 ![example image](./wallpapers/unknownpleasures.jpg)
 
 The resulting wallpaper is saved at `wallpapers/unknownpleasures.jpg`.
+
+## mountains
+Create wallpapers with gradient mountains, inspired by Campo Santo's "Firewatch"
+
+### Usage
+`python mountains.py <width> <height> [<*color name/hex>]`
+
+Additional settings can also be tweaked inside the script.
+
+![example image](./wallpapers/mountains_black.jpg)
+
+The wallpaper is saved at `wallpapers/mountains_black.jpg`.
+
