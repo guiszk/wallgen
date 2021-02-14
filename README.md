@@ -24,13 +24,13 @@ Create wallpapers with patterns.
 ### Usage
 `python wallpaper.py [-h] [-q [SEQUENCE]] [-s [SQUARE]] [-c [COLOR]] width height`
 
-Example with random colors
-
-![example image](./wallpapers/pattern_colored.jpg)
-
-Example with `--color` option
+Example using `--square` and `color`
 
 ![example image](./wallpapers/pattern_black.jpg)
+
+Example with `--sequence`
+
+![example image](./wallpapers/sequence.jpg)
 
 The resulting wallpaper is saved at `wallpapers/pattern.jpg`.
 
