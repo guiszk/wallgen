@@ -24,11 +24,11 @@ Create wallpapers with patterns.
 ### Usage
 `python wallpaper.py [-h] [-q [SEQUENCE]] [-s [SQUARE]] [-c [COLOR]] width height`
 
-Example using `--square` and `color`
+Example using `--square` and `--color`
 
 ![example image](./wallpapers/pattern_black.jpg)
 
-Example with `--sequence`
+Example with `--sequence` and random colors
 
 ![example image](./wallpapers/sequence.jpg)
 
