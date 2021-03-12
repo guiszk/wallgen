@@ -57,3 +57,15 @@ Additional settings can also be tweaked inside the script.
 ![example image](./wallpapers/mountains_black.jpg)
 
 The wallpaper is saved at `wallpapers/mountains.jpg`.
+
+## space
+Space-themed wallpapers
+
+### Usage
+`python space.py <width> <height>`
+
+Additional settings can also be tweaked inside the script.
+
+![example image](./wallpapers/space.jpg)
+
+The wallpaper is saved at `wallpapers/space.jpg`.
