@@ -62,7 +62,7 @@ The wallpaper is saved at `wallpapers/mountains.jpg`.
 Space-themed wallpapers
 
 ### Usage
-`python space.py <width> <height>`
+`python space.py <width> <height> <b|w>`
 
 Additional settings can also be tweaked inside the script.
 
